@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <!-- ========== HEADER ========== -->
@@ -219,7 +221,75 @@
                 </div>
             </div>
         </section>
+
+        <!-- ========== CONTACT SECTION ========== -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-grid">
+                    <aside class="contact-info" aria-label="Contact information">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out. I'm always open to discussing new projects.</p>
+
+                        <ul class="contact-list">
+                            <li>
+                                <span class="contact-icon contact-icon-email" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" role="presentation"><path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+                                </span>
+                                <a href="mailto:nguyentwd.hubt@gmail.com">nguyentwd.hubt@gmail.com</a>
+                            </li>
+                            <li>
+                                <span class="contact-icon contact-icon-location" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" role="presentation"><path d="M12 21s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.2" fill="currentColor"/></svg>
+                                </span>
+                                <span>Hanoi, Vietnam</span>
+                            </li>
+                        </ul>
+                    </aside>
+
+                    <div class="contact-card">
+                        <form class="contact-form" action="#" method="post" novalidate>
+                            <div class="form-group">
+                                <label for="full-name">Full Name</label>
+                                <input id="full-name" name="full-name" type="text" placeholder="John Doe" required minlength="2">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email-address">Email Address</label>
+                                <input id="email-address" name="email-address" type="email" placeholder="john@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required minlength="10"></textarea>
+                            </div>
+
+                            <button type="submit" class="send-button">Send Message <span aria-hidden="true">→</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="footer-brand" href="#hero">YourName</a>
+            <p class="footer-tagline">Building digital experiences</p>
+            <div class="footer-socials" aria-label="Social links">
+                <a href="https://github.com/nguyentkd" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.69c-2.78.6-3.37-1.17-3.37-1.17a2.66 2.66 0 0 0-1.12-1.47c-.92-.63.07-.62.07-.62a2.14 2.14 0 0 1 1.56 1.05 2.18 2.18 0 0 0 2.97.85 2.19 2.19 0 0 1 .65-1.37c-2.22-.25-4.56-1.11-4.56-4.93a3.86 3.86 0 0 1 1.03-2.68 3.59 3.59 0 0 1 .1-2.65s.84-.27 2.75 1.02a9.44 9.44 0 0 1 5 0c1.9-1.29 2.74-1.02 2.74-1.02a3.59 3.59 0 0 1 .1 2.65 3.86 3.86 0 0 1 1.03 2.68c0 3.83-2.35 4.68-4.58 4.92a2.46 2.46 0 0 1 .7 1.91v2.83c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" fill="currentColor"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 6.5a1.56 1.56 0 1 1-3.12 0 1.56 1.56 0 0 1 3.12 0ZM4.1 8.9h2.68V20H4.1V8.9Zm4.5 0h2.57v1.52h.04a2.82 2.82 0 0 1 2.54-1.4c2.72 0 3.22 1.79 3.22 4.12V20H14.3v-5.08c0-1.21-.02-2.77-1.7-2.77-1.71 0-1.97 1.34-1.97 2.68V20H8.6V8.9Z" fill="currentColor"/></svg>
+                </a>
+                <a href="mailto:nguyentwd.hubt@gmail.com" aria-label="Email">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16A1.5 1.5 0 0 1 21.5 8v8A1.5 1.5 0 0 1 20 17.5H4A1.5 1.5 0 0 1 2.5 16V8A1.5 1.5 0 0 1 4 6.5Zm0 1.8V16h16V8.3l-8 5.3-8-5.3Zm8 4.9-8-5.3h16l-8 5.3Z" fill="currentColor"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/main.js" defer></script>
 </body>
