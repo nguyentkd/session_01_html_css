@@ -98,6 +98,20 @@
     background: rgba(15, 23, 42, 0.92);
 }
 
+/* Lightbox caption */
+.lightbox-caption {
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 0;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.45) 40%, rgba(0,0,0,0.7) 100%);
+    color: #fff;
+    font-weight: 600;
+}
+
+.lightbox-content .lightbox-caption p { margin: 0.25rem 0 0 0; font-weight: 400; font-size: 0.95rem; opacity: 0.9 }
+
 @media (max-width: 1024px) {
     .portfolio-grid {
         grid-template-columns: repeat(2, 1fr);
