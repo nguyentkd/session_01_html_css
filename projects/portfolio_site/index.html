@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
     <!-- ========== HEADER ========== -->
@@ -41,7 +42,7 @@
         <section class="hero" id="hero">
             <div class="hero-content">
                 <p class="eyebrow">Available for freelance projects</p>
-                <h1>Hi, I'm Trịnh Bùi Duy Nguyên</h1>
+                <h1>Hi, I'm <span class="hero-name">Trịnh Bùi Duy Nguyên</span></h1>
                 <p class="hero-subtitle">Full-Stack Developer | UI Designer | Problem Solver</p>
                 <a href="#about" class="cta-button">View My Work</a>
             </div>
@@ -52,7 +53,7 @@
             <div class="container">
                 <div class="about-grid">
                     <div class="about-image">
-                        <img src="https://via.placeholder.com/400" alt="Profile photo">
+                        <img src="../../anhthe.jpg" alt="Profile photo">
                     </div>
                     <div class="about-content">
                         <h2>About Me</h2>
@@ -91,6 +92,75 @@
                         <div class="skill-bar">
                             <div class="skill-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-percent="80%"></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PORTFOLIO SECTION ========== -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2>My Portfolio</h2>
+                <div class="portfolio-grid">
+                    <a class="portfolio-item" href="#project-1" data-category="web">
+                        <img src="assets/portfolio/project-1.jpg" alt="Workspace setup with laptop and desk accessories">
+                    </a>
+                    <a class="portfolio-item" href="#project-2" data-category="web">
+                        <img src="assets/portfolio/project-2.jpg" alt="Team collaboration in a modern office">
+                    </a>
+                    <a class="portfolio-item" href="#project-3" data-category="design">
+                        <img src="assets/portfolio/project-3.jpg" alt="Green plant leaves with dramatic lighting">
+                    </a>
+                    <a class="portfolio-item" href="#project-4" data-category="web">
+                        <img src="assets/portfolio/project-4.jpg" alt="City skyline with buildings and warm sunlight">
+                    </a>
+                    <a class="portfolio-item" href="#project-5" data-category="mobile">
+                        <img src="assets/portfolio/project-5.jpg" alt="White modern architecture against the sky">
+                    </a>
+                    <a class="portfolio-item" href="#project-6" data-category="mobile">
+                        <img src="assets/portfolio/project-6.jpg" alt="Curving road along a hillside at sunset">
+                    </a>
+                </div>
+
+                <div id="project-1" class="lightbox" aria-hidden="true">
+                    <div class="lightbox-content" role="dialog" aria-modal="true">
+                        <a class="lightbox-close" href="#portfolio" aria-label="Close lightbox">&times;</a>
+                        <img src="assets/portfolio/project-1.jpg" alt="Workspace setup with laptop and desk accessories">
+                    </div>
+                </div>
+
+                <div id="project-2" class="lightbox" aria-hidden="true">
+                    <div class="lightbox-content" role="dialog" aria-modal="true">
+                        <a class="lightbox-close" href="#portfolio" aria-label="Close lightbox">&times;</a>
+                        <img src="assets/portfolio/project-2.jpg" alt="Team collaboration in a modern office">
+                    </div>
+                </div>
+
+                <div id="project-3" class="lightbox" aria-hidden="true">
+                    <div class="lightbox-content" role="dialog" aria-modal="true">
+                        <a class="lightbox-close" href="#portfolio" aria-label="Close lightbox">&times;</a>
+                        <img src="assets/portfolio/project-3.jpg" alt="Green plant leaves with dramatic lighting">
+                    </div>
+                </div>
+
+                <div id="project-4" class="lightbox" aria-hidden="true">
+                    <div class="lightbox-content" role="dialog" aria-modal="true">
+                        <a class="lightbox-close" href="#portfolio" aria-label="Close lightbox">&times;</a>
+                        <img src="assets/portfolio/project-4.jpg" alt="City skyline with buildings and warm sunlight">
+                    </div>
+                </div>
+
+                <div id="project-5" class="lightbox" aria-hidden="true">
+                    <div class="lightbox-content" role="dialog" aria-modal="true">
+                        <a class="lightbox-close" href="#portfolio" aria-label="Close lightbox">&times;</a>
+                        <img src="assets/portfolio/project-5.jpg" alt="White modern architecture against the sky">
+                    </div>
+                </div>
+
+                <div id="project-6" class="lightbox" aria-hidden="true">
+                    <div class="lightbox-content" role="dialog" aria-modal="true">
+                        <a class="lightbox-close" href="#portfolio" aria-label="Close lightbox">&times;</a>
+                        <img src="assets/portfolio/project-6.jpg" alt="Curving road along a hillside at sunset">
                     </div>
                 </div>
             </div>
