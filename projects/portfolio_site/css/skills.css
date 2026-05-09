@@ -43,8 +43,16 @@
     transition: width 1s ease-out;
 }
 
+.skill-progress.animate {
+    will-change: width;
+}
+
 @media (max-width: 768px) {
     .skills-grid {
         grid-template-columns: 1fr;
+    }
+
+    .skill-name {
+        font-size: 0.98rem;
     }
 }
