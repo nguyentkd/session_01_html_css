@@ -11,10 +11,7 @@ html {
 body {
     font-family: var(--font-main);
     color: var(--color-text);
-    background:
-        radial-gradient(circle at top left, rgba(99, 102, 241, 0.18), transparent 35%),
-        radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.14), transparent 28%),
-        linear-gradient(180deg, #eef2ff 0%, #f8fafc 45%, #e2e8f0 100%);
+    background: #f4f7fb;
     line-height: 1.6;
 }
 
@@ -58,7 +55,7 @@ h2 {
 }
 
 section {
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 @media (max-width: 768px) {
