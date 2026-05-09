@@ -1,19 +1,25 @@
 /* skills.css */
 
 .skills-section {
-    padding: 4rem 0;
+    padding: 5rem 0;
+    background: #f4f7fb;
 }
 
 .skills-grid {
     display: grid;
-    gap: 1.25rem;
+    gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .skill-item {
     display: grid;
-    gap: 0.5rem;
+    gap: 0.75rem;
+    padding: 1.25rem 1.35rem;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    border: 1px solid rgba(226, 232, 240, 0.85);
 }
 
 .skill-name {
@@ -31,7 +37,7 @@
 
 .skill-bar {
     background: #e2e8f0;
-    border-radius: 10px;
+    border-radius: 999px;
     overflow: hidden;
     height: 12px;
 }
