@@ -3,7 +3,8 @@
 .site-footer {
     background: #1e293b;
     color: #e2e8f0;
-    padding: 2.5rem 0 1.75rem;
+    padding: 2.5rem 0 1.5rem;
+    border-top: 1px solid rgba(148, 163, 184, 0.16);
 }
 
 .footer-inner {
@@ -34,8 +35,8 @@
 }
 
 .footer-socials a {
-    width: 2.45rem;
-    height: 2.45rem;
+    width: 2.55rem;
+    height: 2.55rem;
     border-radius: 999px;
     display: inline-grid;
     place-items: center;
